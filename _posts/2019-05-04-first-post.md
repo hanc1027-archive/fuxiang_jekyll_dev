@@ -2,7 +2,7 @@
 title: 梅嶺脆梅青
 layout: post
 date:   2019-05-04 18:50:32 +0800
-img_url: /assets/new_product/01.jpg
+img_url: assets/new_product/01.jpg 
 meta:
   - name: description
     content: 馥湘茶飲品
@@ -23,6 +23,6 @@ footer:  Copyright © 2019 馥湘茶飲品
 每項產品老闆都希望用最天然的原料做出一杯杯安心的飲料💯
 
 #白沙屯 #白沙屯媽祖 #白沙屯拱天宮 #馥湘  
-<img src="{{ page.img_url }}" width="50%" height="50%" alt="梅嶺脆梅青">    
+<img src="{{ site.baseurl }}/{{ page.img_url }}" width="50%" height="50%" alt="梅嶺脆梅青">    
 
 

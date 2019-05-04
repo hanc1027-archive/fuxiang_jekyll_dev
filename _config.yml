@@ -18,7 +18,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   在地文化，靠我們傳承下去!
 baseurl: "/fuxiang_jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hanc1027.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 phone_number: 0905256906
 line_username: '@amp7289m'
 facebook_username: 馥湘茶飲品-白沙屯在地茶飲
