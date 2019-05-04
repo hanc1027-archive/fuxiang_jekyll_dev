@@ -48,13 +48,15 @@
         <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
       </svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
 
-  {%- if site.phone_number -%}<li>
+  {%- if site.phone_number -%}<a href="tel:{{site.phone_number}}""><li>
     <img src="/assets/icons/phone.png" height="20px" width="20px" alt="電話"><span>{{ site.phone_number }}</span> </li>
+  </a>
   {%- endif -%}
   {%- if site.line_username -%}<a href="http://line.me/ti/p/@amp7289m">
     <li>
       <img src="/assets/icons/line.png" height="20px" width="20px" alt="Line"> <span>{{ site.line_username }}</span>
-  </a></li>{%- endif -%}
+    </li>
+  </a>{%- endif -%}
   {%- if site.instagram_username -%}<a href="https://instagram.com/amp7289m?igshid=10b9gba0zcv4i">
     <li><img src="/assets/icons/instagram.png" height="20px" width="20px" alt="IG">
       {{ site.instagram_username }}</li>
