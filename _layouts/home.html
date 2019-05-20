@@ -8,7 +8,8 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
+  <h2 class="post-list-heading">{{ page.list_title | default: "公告" }}</h2>
+  <p>暫無公告</p>
   {%- if site.posts.size > 0 -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "最新消息" }}</h2>
   <ul class="post-list">
